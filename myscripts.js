@@ -37,7 +37,7 @@ gameplay experience is fairly decent.
 //==================================
 
 // Bind Esc key to closing the modal dialog
-document.onkeypress = function (evt) {
+document.onkeypress = function (evrkt) {
     evt = evt || window.event;
     var modal = document.getElementsByClassName("modal")[0];
     if (evt.keyCode === 27) {
